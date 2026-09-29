@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-set -euo pipefail
+set -eu
 
 for test in tests/*_test.lua; do
     echo "==> $test"
